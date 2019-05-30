@@ -1,8 +1,6 @@
 ## pylingo
 
-Pylingo is a general purpose declarative grammar.
-
-The following template approximates the syntax. Below that is an example of a valid grammar file.
+**Pylingo** is a general purpose declarative grammar. The pylingo module implements a **lexer**, **parser** and **visitor** for the grammar. The following template approximates the syntax and below that is an example of a valid grammar file. 
 
 ```bash
 
