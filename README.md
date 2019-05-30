@@ -4,7 +4,7 @@ Pylingo is a general purpose declarative grammar.
 
 The following template approximates the syntax. Below that is an example of a valid grammar file.
 
-```json
+```bash
 
 config {
   [key = object | array | "string" | number | json | DOC ]+
@@ -30,7 +30,7 @@ generator [namespace]+ name {
 
 Example of a valid grammar file:
 
-``json
+```bash
 
 config {
    key1 = "value1"
