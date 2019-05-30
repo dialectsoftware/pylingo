@@ -62,24 +62,23 @@ data name1 name2 self {
 generator name1 name2 self {
     key = "value"
     number = 100
-		array = ["this","is","an","array"]
+    array = ["this","is","an","array"]
     numbers = [1,2,3,4,5]
-		object {
-			attribute1 = "value1"
-			attribute2 = []
-      attribute3 =  10
-			attribute4 {
-				subattribute = "value"
-			}
+    object {
+    	attribute1 = "value1"
+	attribute2 = []
+      	attribute3 =  10
+	attribute4 {
+		subattribute = "value"
 		}
-		json = {
-            "key":"value",
-            "key1":10,
-            "key2" : {
-              "key3":"value",
-              "key4":{ }
-				    }
-		  }
+	}
+    json = {
+    	"key":"value",
+    	"key1":10,
+    	"key2" : {
+      	"key3":"value",
+      	"key4":{ }
+     }
     complex_array=[
       {
         "key":"value",
@@ -87,24 +86,24 @@ generator name1 name2 self {
           "key3":"value",
           "key4":{ }
         }
-		  },
+      },
       {
         "key":"value",
         "key2" : {
           "key3":"value",
           "key4":{ }
         }
-		  }]
-		doc=<<DOC
-		{
+      }]
+      doc=<<DOC
+      {
         "key":"value",
         "key2" : {
           "key3":"value",
           "key4":{ },
           "key5":5
-        }
-		}
-		DOC
+          }
+ 	}
+	DOC
 }
 
 
